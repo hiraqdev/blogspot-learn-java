@@ -49,7 +49,6 @@ public final class BlogAggregate extends Publisher {
 
     public static class New {
         private final UserUID userUID;
-
         private final String name;
         private final String desc;
 
