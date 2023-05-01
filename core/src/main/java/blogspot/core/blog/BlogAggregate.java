@@ -23,17 +23,12 @@ public final class BlogAggregate extends Publisher {
     public static class Load {
 
         private final BlogUID blogUID;
-
         private final UserUID userUID;
         private final String name;
         private final String desc;
-
         private final Boolean isBanned;
-
         private final Instant createdAt;
-
         private final Instant updatedAt;
-
         private final Instant deletedAt;
 
         public Load(BlogUID blogUID, UserUID userUID, String name, String desc, Boolean isBanned, Instant createdAt, Instant updatedAt, Instant deletedAt) {
